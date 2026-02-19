@@ -204,7 +204,7 @@ export const certificates = [
     issuer: "OfficeMaster",
     date: "9 Nov 2025",
     desc: "Built interactive dashboards in Power BI to analyze data and present meaningful insights.",
-    link: "https://oneroadmap.io/skills/python/certificate/CERT-61B03BE0",
+    link: "https://drive.google.com/file/d/13lgUAxIz5tFfTwODLu4Z-GdikILBSKFO/view",
   },
   {
     id: 5,
