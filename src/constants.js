@@ -32,6 +32,14 @@ import webLogo from './assets/company_logo/web_logo.jpg';
 import rvitLogo from './assets/education_logo/rvit_logo.png';
 import cbseLogo from './assets/education_logo/cbse_logo.jpg';
 
+// certificates
+import weblogo from "./assets/certificates/web_logo.jpg"
+import ibmlogo from "./assets/certificates/ibm.png"
+import datalogo from "./assets/certificates/data.jpg"
+import onelogo from "./assets/certificates/one.webp"
+import qmlogo from "./assets/certificates/qm.jpg"
+import hplogo from "./assets/certificates/hplife.png"
+
 // Project Section Logo's
 import netflixLogo from './assets/work_logo/netflix.png';
 import pizzaLogo from './assets/work_logo/pizza.png';
@@ -160,6 +168,91 @@ export const SkillsInfo = [
     },
 
   ];
+
+export const certificates = [
+  {
+    id: 1,
+    img: datalogo,
+    title: "Mastering Data Magic:Power Bi+ Tableau +SQL",
+    issuer: "Udemy",
+    date: "10 Feb 2026",
+   desc: "Learned SQL, Power BI, and Tableau to analyze data, design dashboards, and support data-driven decision-making.",
+    link: "https://www.udemy.com/certificate/UC-dab70619-01f7-4625-8e64-193a9c8d257e/",
+  },
+   {
+    id: 2,
+    img: hplogo,
+    title: "Success Mindset",
+    issuer: "HP LIFE",
+    date: "20 Nov 2025",
+   desc: "Developed a growth mindset by learning goal setting, self-motivation, adaptability, and strategies for personal and professional success.",
+    link: "https://photos.google.com/documents/ChhTY3JlZW5zaG90cyAmIHJlY29yZGluZ3MiCRIHCgWyAQIYDijkl+a0xDM%3D/photo/AF1QipNp2Mi6K5-LjdzASk8RKPvZudeVeabfnwPJNEwK",
+  },
+      {
+    id: 3,
+    img: ibmlogo,
+    title: "Introduction to Data Analytics",
+    issuer: "IBM",
+    date: "12 Nov 2025",
+    desc: "Learned the fundamentals of data analytics, including data collection, cleaning, visualization, and deriving insights to support data-driven decision-making.",
+    link: "https://www.coursera.org/account/accomplishments/verify/TZ0NNVTHOK16?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse",
+  },
+  {
+    id: 4,
+    img: qmlogo,
+    title: "Power Bi Workshop",
+    issuer: "OfficeMaster",
+    date: "9 Nov 2025",
+    desc: "Built interactive dashboards in Power BI to analyze data and present meaningful insights.",
+    link: "https://oneroadmap.io/skills/python/certificate/CERT-61B03BE0",
+  },
+  {
+    id: 5,
+    img: weblogo,
+    title: "React.Js",
+    issuer: "Xtrude Engineers",
+    date: "25 Aug 2025- 13 Sep 2025",
+    desc: "Learned React.js fundamentals including components, hooks, routing, and API handling to develop interactive and modern web applications.",
+    link: "https://drive.google.com/file/d/1gOCXRDuJG2ACiBjssdGVMyKrSUetnMKr/view",
+  },
+    {
+    id: 6,
+    img: datalogo,
+    title: "Data Analyst",
+    issuer: "Udemy",
+    date: "25 Aug 2025",
+    desc: "Gained hands-on experience in data analysis by working with datasets, performing data cleaning, creating visualizations, and extracting meaningful insights for business decisions.",
+    link: "https://www.udemy.com/certificate/UC-c8301e33-39a1-4188-ba68-e260aba93a21/",
+  },
+      {
+    id: 7,
+    img: onelogo,
+    title: "Python",
+    issuer: "Oneroadmap",
+    date: "24 Aug 2025",
+    desc: "Learned Python programming fundamentals including   data structures, functions, object-oriented concepts, and   problem-solving to build efficient applications.",
+    link: "https://oneroadmap.io/skills/python/certificate/CERT-61B03BE0",
+  },
+
+     {
+    id: 8,
+    img: datalogo,
+    title: "MongoDB",
+    issuer: "Udemy",
+    date: "19 Aug 2025",
+    desc: "Acquired practical knowledge of MongoDB, focusing on schema design, querying, indexing, and database performance.",
+    link: "https://www.udemy.com/certificate/UC-a15406c1-6966-4c5f-90b5-275108b867be/",
+  },
+    {
+    id: 9,
+    img: weblogo,
+    title: "Web Desigining",
+    issuer: "Xtrude Engineers",
+    date: "30 Sep 2024-18 Oct 2024",
+    desc: "Learned modern web design principles, creating responsive and user-friendly websites using HTML, CSS, and JavaScript with a focus on UI/UX best practices.",
+    link: "https://drive.google.com/file/d/1Ql6xeBH5u6Hr-vmyoUcHnzhsrv_2rrdd/view?usp=drivesdk",
+  },
+];
   
   export const projects = [
     {

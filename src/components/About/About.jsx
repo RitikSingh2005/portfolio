@@ -45,7 +45,19 @@ const About = () => {
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
              I am a passionate Web Developer and aspiring Data Analyst, always eager to take on new challenges and expand my skill set. I enjoy solving problems, exploring emerging technologies, and turning ideas into effective digital solutions. With a growth mindset and commitment to quality, I am excited to begin my professional journey and contribute to a forward-thinking team.
           </p>
-       
+          {/* Resume */}
+              <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
+            style={{
+              background: 'linear-gradient(90deg, #8245ec, #a855f7)',
+              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+            }}
+          >
+             Check Resume
+          </a>
         </div>
         
         {/* Photo Side */}
